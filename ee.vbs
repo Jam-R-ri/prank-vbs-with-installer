@@ -4,6 +4,6 @@ Set sapi=CreateObject("sapi.spvoice")
 sapi.Speak message
 do
 
-MsgBox ("Compermised by jam :)")                                   
+MsgBox ("Compermised by jam :)")                
 
 loop
